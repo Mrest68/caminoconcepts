@@ -99,7 +99,7 @@ export default function HeroSection() {
         {/* Content */}
         <div className="text-center relative z-20">
           {/* Contact Us Now Button */}
-          <button className="bg-white text-red-500 font-semibold py-2 sm:py-3 px-6 sm:px-8 rounded-full hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 mb-6 sm:mb-8 text-sm sm:text-base">
+          <button className="bg-white text-red-500 font-semibold py-2 sm:py-3 px-6 sm:px-8 rounded-full hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 mb-6 sm:mb-8 text-sm sm:text-base " onClick={()=>router.push('/contact')}>
             Contact Us Now
           </button>
           
