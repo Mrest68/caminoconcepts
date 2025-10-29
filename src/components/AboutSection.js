@@ -28,7 +28,7 @@ export default function AboutSection() {
             <h2 className="text-2xl md:text-3xl text-red-600 font-semibold mb-8">Transforming Spaces, Building Dreams Since 2008</h2>
 
             <p className="text-lg text-gray-700 leading-relaxed mb-8">
-              At Camino Concepts, we believe that every space has the potential to become something extraordinary. With over 15 years of experience in construction, remodeling, and design, we've built our reputation on exceptional craftsmanship, attention to detail, and unwavering commitment to our clients' visions.
+              At Camino Concepts, we believe that every space has the potential to become something extraordinary. With over 15 years of experience in construction, remodeling, and design, we&apos;ve built our reputation on exceptional craftsmanship, attention to detail, and unwavering commitment to our clients&apos; visions.
             </p>
 
             <p className="text-lg text-gray-700 leading-relaxed mb-8">
@@ -36,7 +36,7 @@ export default function AboutSection() {
             </p>
 
             <p className="text-lg text-gray-700 leading-relaxed mb-12">
-              What sets us apart is our dedication to transparent communication, on-time completion, and unparalleled quality. Whether you're dreaming of a gourmet kitchen, a spa-like bathroom, or a complete home transformation, we're here to make it happen with professional excellence and personal care.
+              What sets us apart is our dedication to transparent communication, on-time completion, and unparalleled quality. Whether you&apos;re dreaming of a gourmet kitchen, a spa-like bathroom, or a complete home transformation, we&apos;re here to make it happen with professional excellence and personal care.
             </p>
 
             <div className="grid md:grid-cols-2 gap-6 mb-12">

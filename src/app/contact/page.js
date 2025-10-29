@@ -15,7 +15,7 @@ export default function ContactPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto">
             <h1 className="text-3xl font-extrabold text-gray-900">Contact Camino Concepts</h1>
-            <p className="mt-2 text-gray-600">Have a project in mind? Send us a message and we'll get back to you shortly.</p>
+            <p className="mt-2 text-gray-600">Have a project in mind? Send us a message and we&apos;ll get back to you shortly.</p>
           </div>
 
           <section className="mt-10">
@@ -33,7 +33,7 @@ export default function ContactPage() {
               <aside className="space-y-6">
                 <div className="p-6 bg-white rounded-2xl shadow">
                   <h3 className="text-lg font-semibold text-gray-900">Contact Information</h3>
-                  <p className="mt-3 text-gray-600">Prefer to call or email? We're here to help.</p>
+                  <p className="mt-3 text-gray-600">Prefer to call or email? We&apos;re here to help.</p>
 
                   <ul className="mt-4 space-y-3 text-sm text-gray-700">
                     <li className="flex items-start gap-3">

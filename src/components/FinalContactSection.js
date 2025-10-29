@@ -60,7 +60,7 @@ export default function FinalContactSection() {
             Ready to Start Your Project?
           </h2>
           <p className="text-xl md:text-2xl text-red-100 max-w-4xl mx-auto leading-relaxed mb-12">
-            Don't wait to transform your space. Get a free, no-obligation quote today and see how 
+            Don&apos;t wait to transform your space. Get a free, no-obligation quote today and see how 
             we can bring your vision to life with professional excellence.
           </p>
         </div>
@@ -131,7 +131,7 @@ export default function FinalContactSection() {
                 </h3>
                 <p className="text-gray-600 mb-8 leading-relaxed">
                   Have questions? Ready to discuss your project? 
-                  We're here to help and provide expert guidance.
+                  We&apos;re here to help and provide expert guidance.
                 </p>
                 
                 {/* Contact Methods */}

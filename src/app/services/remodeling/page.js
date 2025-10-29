@@ -594,7 +594,7 @@ export default function RemodelingPage() {
                 ))}
               </div>
               <p className="text-gray-600 mb-4">
-                "Our kitchen remodel exceeded all expectations. The team was professional, clean, and delivered exactly what we envisioned!"
+                &ldquo;Our kitchen remodel exceeded all expectations. The team was professional, clean, and delivered exactly what we envisioned!&rdquo;
               </p>
               <p className="font-semibold text-gray-900">- Sarah M.</p>
             </div>
@@ -608,7 +608,7 @@ export default function RemodelingPage() {
                 ))}
               </div>
               <p className="text-gray-600 mb-4">
-                "Amazing work on our bathroom renovation! High quality materials and excellent attention to detail. Highly recommend!"
+                &ldquo;Amazing work on our bathroom renovation! High quality materials and excellent attention to detail. Highly recommend!&rdquo;
               </p>
               <p className="font-semibold text-gray-900">- Michael R.</p>
             </div>
@@ -622,7 +622,7 @@ export default function RemodelingPage() {
                 ))}
               </div>
               <p className="text-gray-600 mb-4">
-                "From start to finish, the process was smooth. They completed our whole-home remodel on time and within budget!"
+                &ldquo;From start to finish, the process was smooth. They completed our whole-home remodel on time and within budget!&rdquo;
               </p>
               <p className="font-semibold text-gray-900">- Jennifer L.</p>
             </div>
@@ -637,7 +637,7 @@ export default function RemodelingPage() {
             Ready to Transform Your Space?
           </h2>
           <p className="text-xl text-red-100 mb-8 max-w-2xl mx-auto">
-            Get started with a free consultation and estimate. Let's bring your remodeling vision to life!
+            Get started with a free consultation and estimate. Let&apos;s bring your remodeling vision to life!
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

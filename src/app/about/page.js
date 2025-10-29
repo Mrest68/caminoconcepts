@@ -33,7 +33,7 @@ export default function AboutPage() {
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
                 Our journey has been built on the foundation of quality craftsmanship, honest communication, 
                 and treating every project as if it were our own home. We believe that construction is not just 
-                about building structures – it's about creating spaces where memories are made and dreams come to life.
+                about building structures – it&apos;s about creating spaces where memories are made and dreams come to life.
               </p>
               <div className="flex items-center space-x-8">
                 <div className="text-center">

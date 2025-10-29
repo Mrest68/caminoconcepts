@@ -13,7 +13,7 @@ export default function TestimonialSection() {
             Client Success Stories
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            See the transformations we've helped bring to life
+            See the transformations we&apos;ve helped bring to life
           </p>
         </div>
 
@@ -127,7 +127,7 @@ export default function TestimonialSection() {
                   </div>
                 </div>
                 <p className="text-lg text-gray-700 italic mb-4">
-                  "Couldn't be happier with the results! They took care of all the paperwork and permits, making the entire process stress-free. The final outcome is exactly what we envisioned. Watch our video to see the amazing work they did!"
+                  &ldquo;Couldn&apos;t be happier with the results! They took care of all the paperwork and permits, making the entire process stress-free. The final outcome is exactly what we envisioned. Watch our video to see the amazing work they did!&rdquo;
                 </p>
                 <p className="text-gray-900 font-semibold">— Satisfied Customer</p>
                 

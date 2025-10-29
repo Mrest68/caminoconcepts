@@ -1,6 +1,8 @@
 'use client';
 
 import { useState, useRef, useEffect } from 'react';
+import Link from 'next/link';
+import Image from 'next/image';
 
 /**
  * Modern Navigation Bar Component
@@ -53,13 +55,15 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <a href="/" className="flex items-center">
-              <img 
+            <Link href="/" className="flex items-center">
+              <Image 
                 src="/logo.webp" 
                 alt="Camino Concepts Logo" 
+                width={48}
+                height={48}
                 className="h-12 w-auto object-contain"
               />
-            </a>
+            </Link>
           </div>
 
           {/* Desktop Navigation */}

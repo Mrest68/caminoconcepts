@@ -321,7 +321,7 @@ export default function MaintenancePage() {
                 2
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">Schedule Service</h3>
-              <p className="text-gray-600">We'll create a customized maintenance schedule</p>
+              <p className="text-gray-600">We&apos;ll create a customized maintenance schedule</p>
             </div>
 
             <div className="text-center">

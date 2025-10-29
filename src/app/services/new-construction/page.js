@@ -396,7 +396,7 @@ export default function NewConstructionPage() {
             Ready to Start Your Construction Project?
           </h2>
           <p className="text-xl text-red-100 mb-8 max-w-2xl mx-auto">
-            Let's bring your vision to life. Contact us today for a free consultation and estimate.
+            Let&apos;s bring your vision to life. Contact us today for a free consultation and estimate.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
