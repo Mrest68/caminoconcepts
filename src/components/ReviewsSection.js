@@ -14,7 +14,7 @@ export default function ReviewsSection() {
     {
       id: 1,
       name: "Sarah Johnson",
-      location: "Beverly Hills, CA",
+      location: "Hialeah, FL",
       rating: 5,
       text: "Camino Concepts transformed our kitchen beyond our wildest dreams. The attention to detail and craftsmanship is absolutely incredible. They completed the project on time and within budget.",
       project: "Kitchen Remodeling",
@@ -23,7 +23,7 @@ export default function ReviewsSection() {
     {
       id: 2,
       name: "Michael Rodriguez",
-      location: "Santa Monica, CA",
+      location: "Southwest Ranches, FL",
       rating: 5,
       text: "Outstanding work from start to finish. The team was professional, reliable, and delivered exceptional quality. Our bathroom renovation looks like it belongs in a luxury spa.",
       project: "Bathroom Renovation",
@@ -32,7 +32,7 @@ export default function ReviewsSection() {
     {
       id: 3,
       name: "Emily Chen",
-      location: "Manhattan Beach, CA",
+      location: "Davie, FL",
       rating: 5,
       text: "From concept to creation, Camino Concepts exceeded every expectation. Their expertise in custom home construction is unmatched. We couldn't be happier with our new home.",
       project: "Custom Home Construction",
@@ -41,7 +41,7 @@ export default function ReviewsSection() {
     {
       id: 4,
       name: "David Thompson",
-      location: "Pasadena, CA",
+      location: "Miami Shores, FL",
       rating: 5,
       text: "The handyman services are top-notch. Quick, reliable, and always done right the first time. They've become our go-to for all home maintenance and repairs.",
       project: "Handyman Services",
@@ -50,7 +50,7 @@ export default function ReviewsSection() {
     {
       id: 5,
       name: "Lisa Williams",
-      location: "Malibu, CA",
+      location: "Hollywood,FL",
       rating: 5,
       text: "Working with Camino Concepts was a dream. They turned our outdated living space into a modern masterpiece. The design process was collaborative and fun.",
       project: "Interior Design",
@@ -59,7 +59,7 @@ export default function ReviewsSection() {
     {
       id: 6,
       name: "Robert Kim",
-      location: "Redondo Beach, CA",
+      location: "Aventura, FL",
       rating: 5,
       text: "Our outdoor deck and patio project was completed flawlessly. The team's expertise in outdoor living spaces really shows. We now have the perfect entertaining area.",
       project: "Outdoor Living",
