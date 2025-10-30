@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import Link from 'next/link';
 
 /**
  * Services Carousel Section
@@ -160,9 +161,11 @@ export default function ServicesCarousel() {
                     </div>
                     
                     {/* CTA Button */}
-                    <button className="bg-red-600 text-white font-bold py-4 px-8 hover:bg-red-700 transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
-                      Learn More
-                    </button>
+                    <Link href="/services/remodeling" className="inline-block">
+                      <button className="bg-red-600 text-white font-bold py-4 px-8 hover:bg-red-700 transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
+                        Learn More
+                      </button>
+                    </Link>
                   </div>
                 </div>
               </div>

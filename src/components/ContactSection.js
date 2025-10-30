@@ -26,7 +26,7 @@ export default function ContactSection() {
           <button
             type="button"
             className="bg-red-600 text-white font-bold py-6 px-16 hover:bg-red-700 transition-colors duration-300 transform hover:scale-105 text-lg"
-            onClick={() => router.push('/app/contact')}
+            onClick={() => router.push('/contact')}
           >
             REQUEST FREE QUOTE
           </button>
@@ -41,7 +41,9 @@ export default function ContactSection() {
               </svg>
             </div>
             <h3 className="font-semibold text-gray-900 mb-2">Call Us</h3>
-            <p className="text-gray-600">(954) 715-0053</p>
+            <a href="tel:+19547150053" className="text-gray-600 hover:text-red-600 hover:underline">
+              (954) 715-0053
+            </a>
           </div>
 
           <div>
