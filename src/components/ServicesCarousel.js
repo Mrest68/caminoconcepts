@@ -18,6 +18,7 @@ export default function ServicesCarousel() {
       description: "Transform your kitchen into a culinary masterpiece with custom designs, premium appliances, and expert craftsmanship.",
       image: "kitchen5.JPG",
       features: ["Custom Cabinets", "Premium Countertops", "Modern Appliances", "Lighting Design"],
+      href: "/services/remodeling",
       icon: (
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2H5a2 2 0 00-2-2z" />
@@ -31,19 +32,33 @@ export default function ServicesCarousel() {
       description: "Create a spa-like sanctuary with luxury fixtures, modern tiles, and thoughtful design that enhances your daily routine.",
       image: "bathroom1.JPG",
       features: ["Luxury Fixtures", "Custom Tiles", "Spa Features", "Smart Storage"],
+      href: "/services/renovation",
       icon: (
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
         </svg>
       )
     },
-    
+    {
+      id: 3,
+      title: "New Construction",
+      description: "Build your dream home from the ground up with our comprehensive new construction services and expert project management.",
+      image: "/working1.jpg",
+      features: ["Custom Design", "Project Management", "Quality Materials", "Timeline Adherence"],
+      href: "/services/new-construction",
+      icon: (
+        <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+        </svg>
+      )
+    },
     {
       id: 4,
       title: "Handyman Services",
       description: "Professional maintenance and repair services for all your home improvement needs with reliable, quality workmanship.",
       image: "/working2.jpg",
       features: ["Quick Repairs", "Maintenance", "Licensed & Insured", "Same Day Service"],
+      href: "/services/handyman",
       icon: (
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
@@ -53,17 +68,30 @@ export default function ServicesCarousel() {
     },
     {
       id: 5,
-      title: "Real Estate Remodeling",
-      description: "Complete new construction and remodeling services for real estate properties to maximize value and appeal.",
-      image: "/working1.jpg",
-      features: ["Space Planning", "Color Consultation", "Furniture Selection", "Styling"],
+      title: "Maintenance Services",
+      description: "Keep your property in perfect condition with our comprehensive maintenance services and preventive care programs.",
+      image: "/handyman.png",
+      features: ["Preventive Care", "Regular Inspections", "Emergency Repairs", "Seasonal Maintenance"],
+      href: "/services/maintenance",
       icon: (
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zM21 5a2 2 0 00-2-2h-4a2 2 0 00-2 2v12a4 4 0 004 4h4a2 2 0 002-2V5z" />
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 100 4m0-4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 100 4m0-4v2m0-6V4" />
         </svg>
       )
     },
-    
+    {
+      id: 6,
+      title: "Permits & Planning",
+      description: "Navigate the permitting process seamlessly with our expert knowledge of local regulations and professional planning services.",
+      image: "/working1.jpg",
+      features: ["Permit Applications", "Code Compliance", "Plan Reviews", "Regulatory Guidance"],
+      href: "/services/permits",
+      icon: (
+        <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+        </svg>
+      )
+    }
   ];
 
   // Auto-advance carousel
@@ -161,7 +189,7 @@ export default function ServicesCarousel() {
                     </div>
                     
                     {/* CTA Button */}
-                    <Link href="/services/remodeling" className="inline-block">
+                    <Link href={service.href} className="inline-block">
                       <button className="bg-red-600 text-white font-bold py-4 px-8 hover:bg-red-700 transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
                         Learn More
                       </button>

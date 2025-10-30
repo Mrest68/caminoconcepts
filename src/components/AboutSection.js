@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import Link from 'next/link';
 
 export default function AboutSection() {
   const [isVisible, setIsVisible] = useState(false);
@@ -81,7 +82,9 @@ export default function AboutSection() {
               </div>
             </div>
 
-            <button className="bg-red-600 text-white font-bold py-4 px-8 hover:bg-red-700 transition-all duration-300 transform hover:scale-105">LEARN MORE ABOUT US</button>
+            <Link href="/about" className="inline-block bg-red-600 text-white font-bold py-4 px-8 hover:bg-red-700 transition-all duration-300 transform hover:scale-105">
+              LEARN MORE ABOUT US
+            </Link>
           </div>
 
           {/* Right Column */}
