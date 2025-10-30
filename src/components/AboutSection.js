@@ -25,7 +25,7 @@ export default function AboutSection() {
           {/* Left Column */}
           <div className={`transition-all duration-1000 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-8'}`}>
             <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight">About Camino Concepts</h1>
-            <h2 className="text-2xl md:text-3xl text-red-600 font-semibold mb-8">Transforming Spaces, Building Dreams Since 2008</h2>
+            <h2 className="text-2xl md:text-3xl text-red-600 font-semibold mb-8">Transforming Spaces, Building Dreams Since 2000</h2>
 
             <p className="text-lg text-gray-700 leading-relaxed mb-8">
               At Camino Concepts, we believe that every space has the potential to become something extraordinary. With over 15 years of experience in construction, remodeling, and design, we&apos;ve built our reputation on exceptional craftsmanship, attention to detail, and unwavering commitment to our clients&apos; visions.

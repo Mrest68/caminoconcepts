@@ -1,4 +1,8 @@
+'use client';
+
+import FinalContactSection from '@/components/FinalContactSection';
 import Navbar from '@/components/Navbar';
+import Link from 'next/link';
 
 /**
  * About Us Page
@@ -26,7 +30,7 @@ export default function AboutPage() {
             <div>
               <h2 className="text-4xl font-bold text-gray-900 mb-6">Our Story</h2>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                Founded in 2008, Camino Concepts began as a small family-owned business with a simple mission: 
+                Founded in 2000, Camino Concepts began as a small family-owned business with a simple mission: 
                 to provide exceptional construction and handyman services that exceed our clients&apos; expectations. 
                 What started as a local Miami operation has grown into a trusted name across South Florida and Houston.
               </p>
@@ -168,9 +172,6 @@ export default function AboutPage() {
                 </div>
               </div>
               
-              <button className="bg-red-500 text-white px-8 py-3 rounded-lg font-semibold hover:bg-red-600 transition-colors">
-                View All Services
-              </button>
             </div>
           </div>
         </div>
@@ -208,29 +209,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Call to Action */}
-      <section className="py-20 bg-red-500 text-white">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-4xl font-bold mb-6">Ready to Start Your Project?</h2>
-          <p className="text-xl mb-8 max-w-2xl mx-auto">
-            Let&apos;s discuss how we can bring your vision to life. Contact us today for a free consultation and quote.
-          </p>
-          <div className="space-x-4">
-            <button className="bg-white text-red-500 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
-              Get Free Quote
-            </button>
-            <button className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-red-500 transition-colors">
-              Call Us Now
-            </button>
-          </div>
-        </div>
-      </section>
+    <FinalContactSection />
     </main>
   );
 }
-
-export const metadata = {
-  title: 'About Us - Camino Concepts | Premium Construction & Handyman Services',
-  description: 'Learn about Camino Concepts - 15+ years of excellence in construction and handyman services across South Florida and Houston. Our story, values, and commitment to quality.',
-  keywords: 'about camino concepts, construction company history, handyman services, south florida construction, houston construction, company values',
-};

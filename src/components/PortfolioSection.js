@@ -171,7 +171,6 @@ export default function PortfolioSection() {
     { id: 'all', name: 'All Projects' },
     { id: 'kitchen', name: 'Kitchens' },
     { id: 'bathroom', name: 'Bathrooms' },
-    { id: 'interior', name: 'Interior' }
   ];
 
   const filteredItems = currentFilter === 'all' 
@@ -300,22 +299,7 @@ export default function PortfolioSection() {
           ))}
         </div>
 
-        {/* Call to Action */}
-        <div className={`text-center mt-16 transition-all duration-1000 delay-700 ${
-          isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
-        }`}>
-          <div className="bg-white rounded-3xl p-8 md:p-12 shadow-xl max-w-2xl mx-auto">
-            <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Want to See More?
-            </h3>
-            <p className="text-lg text-gray-600 mb-8">
-              Browse our complete portfolio and get inspired for your next project
-            </p>
-            <button className="bg-red-600 text-white font-bold py-4 px-12 hover:bg-red-700 transition-all duration-300 transform hover:scale-105 hover:shadow-lg text-lg">
-              VIEW FULL PORTFOLIO
-            </button>
-          </div>
-        </div>
+        
 
         {/* Floating Stats */}
         <div className={`grid grid-cols-2 md:grid-cols-4 gap-6 mt-16 transition-all duration-1000 delay-900 ${

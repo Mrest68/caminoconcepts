@@ -51,7 +51,7 @@ export default function ContactSection() {
               </svg>
             </div>
             <h3 className="font-semibold text-gray-900 mb-2">Email Us</h3>
-            <p className="text-gray-600">caminoconcepts0@gmail.com</p>
+            <p className="text-gray-600">info@caminoconcepts.com</p>
           </div>
 
           <div>

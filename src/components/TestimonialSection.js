@@ -32,7 +32,7 @@ export default function TestimonialSection() {
                   Before
                 </div>
                 <Image
-                  src="/WhatsApp Image 2025-10-04 at 09.37.01.jpeg"
+                  src="/working1.jpg"
                   alt="Before renovation - view 1"
                   width={300}
                   height={400}

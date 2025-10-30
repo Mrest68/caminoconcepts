@@ -205,7 +205,7 @@ export default function HeroSection() {
           {/* Trust Indicators */}
           <div className="grid grid-cols-3 gap-2 sm:gap-4 mb-6 sm:mb-8">
             <div className="text-center p-2 sm:p-4 bg-white rounded-xl shadow-sm border border-gray-100">
-              <div className="text-xl sm:text-2xl font-bold text-red-500 mb-1">15+</div>
+              <div className="text-xl sm:text-2xl font-bold text-red-500 mb-1">20+</div>
               <div className="text-xs sm:text-sm text-gray-600">Years Experience</div>
             </div>
             <div className="text-center p-2 sm:p-4 bg-white rounded-xl shadow-sm border border-gray-100">
